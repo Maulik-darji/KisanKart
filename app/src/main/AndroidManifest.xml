@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AgriFarm"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".HomeCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".buying_mode"
+            android:exported="false" /> <!-- Set SplashActivity as the Launcher Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"> <!-- Added android:exported -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity> <!-- MainActivity will be launched after the splash screen -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> <!-- Added android:exported -->
+        <!-- Other activities -->
+
+        <activity
+            android:name=".DeleteAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileEdit"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainLoginEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginOptionsActivity"
+            android:exported="false" />
+        <activity android:name=".FarmersListActivity" />
+        <activity android:name=".FarmerDetailActivity" />
+    </application>
+
+</manifest>

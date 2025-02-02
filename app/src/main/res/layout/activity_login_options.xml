@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SplashScreenBackground"
+    tools:context=".LoginOptionsActivity">
+
+    <ImageButton
+        android:id="@+id/closeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_gray"
+        android:background="@android:color/transparent"
+        android:padding="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/final_logo"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginEmailBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue With Mail"
+                app:icon="@drawable/ic_mail"
+                android:fontFamily="@font/sfpro"
+                app:iconSize="24dp"
+                android:minHeight="@dimen/m_button_height"
+                android:layout_marginTop="30dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginPhoneBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue With Phone"
+                app:icon="@drawable/ic_phone"
+                app:iconSize="24dp"
+                app:cornerRadius="30dp"
+                android:fontFamily="@font/sfpro"
+                android:minHeight="@dimen/m_button_height"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginGoogleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue With Google"
+                android:minHeight="@dimen/m_button_height"
+                app:iconSize="24dp"
+                android:fontFamily="@font/sfpro"
+                app:cornerRadius="30dp"
+                app:icon="@drawable/ic_google"/>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

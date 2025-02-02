@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181664166183",
+    "project_id": "agri-farm-feeae",
+    "storage_bucket": "agri-farm-feeae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181664166183:android:cf651776403753a079f902",
+        "android_client_info": {
+          "package_name": "com.android.agrifarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCItUHLB_KEggc_VMDf4tmonBK-C266eXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
