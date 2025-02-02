@@ -16,6 +16,8 @@ KisanKart is a peer-to-peer marketplace designed to connect farmers directly wit
 - **Firebase** – Database & Authentication
 
 ## 📷 Screenshots
+![image](https://github.com/user-attachments/assets/8e06cb78-7183-4c23-a5bb-3c964ed491b9)
+![image](https://github.com/user-attachments/assets/6a815af3-c463-4082-8c85-4787d8f859fd)
 ![image](https://github.com/user-attachments/assets/9c5d9456-6c9f-4917-a775-a04bbb1d7164)
 ![image](https://github.com/user-attachments/assets/49f328b4-9e2e-4d92-9aca-5b747ce48b4c)
 ![image](https://github.com/user-attachments/assets/fd93730a-ac14-45ac-9693-0249db8fb132)
@@ -39,12 +41,12 @@ git clone https://github.com/your-username/KisanKart.git
 🔹 AI-based Price Prediction for Crops
 
 🏆 Our Contributors
--> [@Maulik Darji](https://github.com/Maulik-darji) - Contributors GITHUB
--> [@Aanshi Shah](https://www.linkedin.com/in/aanshi-shah-1bbba4332/) - Contributors LINKEDIN
--> [@Riya-Patel-23](https://github.com/Riya-Patel-23) – Contributors - GITHUB
--> [@Hardika Nimavat](https://www.linkedin.com/in/hardika-nimavat-664615309/) - Contributors LINKEDIN
--> [@DEV Tale]
--> [@Abhimanyu Singh Rajawat]
+- [@Maulik Darji](https://github.com/Maulik-darji) - Contributors GITHUB
+- [@Aanshi Shah](https://www.linkedin.com/in/aanshi-shah-1bbba4332/) - Contributors LINKEDIN
+- [@Riya-Patel-23](https://github.com/Riya-Patel-23) – Contributors - GITHUB
+- [@Hardika Nimavat](https://www.linkedin.com/in/hardika-nimavat-664615309/) - Contributors LINKEDIN
+- [@DEV Tale]
+- [@Abhimanyu Singh Rajawat]
 
 
 🤝 Contributing
